@@ -1,0 +1,25 @@
+{
+    "name": "Music Application",
+    "short_name": "Music App",
+    "description": "an App to Keep the list of Songs",
+    "start_url": "/index.html",
+    "id": "/",
+    "display": "standalone",
+    "background_color": "#D3D3D3",
+    "theme_color": "#add8e6",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

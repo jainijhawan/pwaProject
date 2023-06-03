@@ -1,0 +1,63 @@
+.TopContainer {
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background: #16a085;
+    width: 400px
+  }
+  
+  .titleClass {
+    padding: 10px;
+    background: #ffffff
+  }
+  
+  .formContainer {
+    background: #FFC0CB
+  }
+  
+  .InputData {
+    padding: 5px;
+  }
+  
+  .InputField {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  table {
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+
+  @media screen and (min-width: 800px) {
+    .TopContainer {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .form {
+      flex: 2;
+      margin-right: 20px;
+    }
+    
+    .list{
+      flex: 2;
+    }
+  }
